@@ -14,7 +14,7 @@ FROM ghcr.io/ruslandoga/mecab-alpine:mecab AS mecab
 # BUILD #
 #########
 
-FROM hexpm/elixir:1.18.4-erlang-27.3.4-alpine-3.21.3 AS build
+FROM hexpm/elixir:1.18.4-erlang-28.0-alpine-3.21.3 AS build
 
 # install build dependencies
 RUN apk add --no-cache --update git build-base nodejs npm
