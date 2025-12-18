@@ -2,7 +2,7 @@
 # LITESTREAM #
 ##############
 
-FROM litestream/litestream:0.3.13 AS litestream
+FROM litestream/litestream:0.5.5 AS litestream
 
 #########
 # MECAB #
